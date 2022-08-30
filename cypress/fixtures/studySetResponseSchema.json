@@ -1,0 +1,279 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "parent_subject_id": {
+      "type": "null"
+    },
+    "name": {
+      "type": "string"
+    },
+    "colorId": {
+      "type": "integer"
+    },
+    "shared": {
+      "type": "boolean"
+    },
+    "creator_id": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "null"
+    },
+    "partner_subject": {
+      "type": "boolean"
+    },
+    "partner": {
+      "type": "string"
+    },
+    "breadcrumbs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": ["name", "id"]
+        }
+      ]
+    },
+    "level": {
+      "type": "integer"
+    },
+    "language": {
+      "type": "null"
+    },
+    "created": {
+      "type": "string"
+    },
+    "class_levels": {
+      "type": "null"
+    },
+    "target_groups": {
+      "type": "array",
+      "items": [
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "unified_subject": {
+      "type": "null"
+    },
+    "shortened_name": {
+      "type": "null"
+    },
+    "icon_name": {
+      "type": "null"
+    },
+    "spaced_repetition": {
+      "type": "boolean"
+    },
+    "last_repetition_session": {
+      "type": "null"
+    },
+    "next_repetition": {
+      "type": "null"
+    },
+    "repetition_count": {
+      "type": "integer"
+    },
+    "learned_count": {
+      "type": "integer"
+    },
+    "relearning_count": {
+      "type": "integer"
+    },
+    "mastered_count": {
+      "type": "integer"
+    },
+    "permission": {
+      "type": "object",
+      "properties": {
+        "modify": {
+          "type": "boolean"
+        },
+        "share_flashcards": {
+          "type": "boolean"
+        },
+        "share_subject": {
+          "type": "boolean"
+        }
+      },
+      "required": ["modify", "share_flashcards", "share_subject"]
+    },
+    "stats_id": {
+      "type": "integer"
+    },
+    "last_used": {
+      "type": "string"
+    },
+    "exam_date": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "boolean"
+    },
+    "archived_at": {
+      "type": "null"
+    },
+    "slideset_order": {
+      "type": "null"
+    },
+    "studygroup_id": {
+      "type": "integer"
+    },
+    "flashcard_daily_count": {
+      "type": "integer"
+    },
+    "flashcard_daily_goal": {
+      "type": "integer"
+    },
+    "flashcard_ratings_counter": {
+      "type": "integer"
+    },
+    "summary_count": {
+      "type": "integer"
+    },
+    "slideset_count": {
+      "type": "integer"
+    },
+    "exercise_count": {
+      "type": "integer"
+    },
+    "flashcard_count": {
+      "type": "integer"
+    },
+    "flashcard_bad_count": {
+      "type": "integer"
+    },
+    "flashcard_medium_count": {
+      "type": "integer"
+    },
+    "flashcard_good_count": {
+      "type": "integer"
+    },
+    "flashcard_trash_count": {
+      "type": "integer"
+    },
+    "flashcard_unseen_count": {
+      "type": "integer"
+    },
+    "is_favorite": {
+      "type": "boolean"
+    },
+    "fixed_flashcard_order": {
+      "type": "null"
+    },
+    "chapter_count": {
+      "type": "integer"
+    },
+    "subtopic_count": {
+      "type": "integer"
+    },
+    "user_count": {
+      "type": "integer"
+    },
+    "partner_logo": {
+      "type": "string"
+    },
+    "partner_logo_white": {
+      "type": "string"
+    },
+    "university_logo": {
+      "type": "null"
+    },
+    "university_name": {
+      "type": "null"
+    },
+    "course_of_studies_name": {
+      "type": "null"
+    },
+    "state_name": {
+      "type": "null"
+    },
+    "contribution_group": {
+      "type": "integer"
+    },
+    "consumer_count": {
+      "type": "integer"
+    },
+    "unlearned_count": {
+      "type": "integer"
+    },
+    "main_topic_id": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "id",
+    "parent_subject_id",
+    "name",
+    "colorId",
+    "shared",
+    "creator_id",
+    "icon",
+    "partner_subject",
+    "partner",
+    "breadcrumbs",
+    "level",
+    "language",
+    "created",
+    "class_levels",
+    "target_groups",
+    "unified_subject",
+    "shortened_name",
+    "icon_name",
+    "spaced_repetition",
+    "last_repetition_session",
+    "next_repetition",
+    "repetition_count",
+    "learned_count",
+    "relearning_count",
+    "mastered_count",
+    "permission",
+    "stats_id",
+    "last_used",
+    "exam_date",
+    "archived",
+    "archived_at",
+    "slideset_order",
+    "studygroup_id",
+    "flashcard_daily_count",
+    "flashcard_daily_goal",
+    "flashcard_ratings_counter",
+    "summary_count",
+    "slideset_count",
+    "exercise_count",
+    "flashcard_count",
+    "flashcard_bad_count",
+    "flashcard_medium_count",
+    "flashcard_good_count",
+    "flashcard_trash_count",
+    "flashcard_unseen_count",
+    "is_favorite",
+    "fixed_flashcard_order",
+    "chapter_count",
+    "subtopic_count",
+    "user_count",
+    "partner_logo",
+    "partner_logo_white",
+    "university_logo",
+    "university_name",
+    "course_of_studies_name",
+    "state_name",
+    "contribution_group",
+    "consumer_count",
+    "unlearned_count",
+    "main_topic_id"
+  ]
+}
